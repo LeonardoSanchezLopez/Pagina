@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registro Del Cliente</div>
+        <br>
+        <form id="form-validation" novalidate>
+            <div class="form-group">
+                <span>Nombre</span>
+                <input type="text" id="nombre" placeholder="Ingrese Nombre" required>
+                <small> Por favor ingrese su Nombre</small>
+            </div>
+
+            <div class="form-group">
+                <span>Apellido</span>
+                <input type="text" id="apellido" placeholder="Ingrese Apellido" required>
+                <small> Por favor ingrese su Apellido</small>
+            </div>
+
+            <div class="form-group">
+                <span>DNI</span>
+                <input type="number" id="DNI" placeholder="Ingrese DNI" required>
+                <small> Por favor ingrese su Correo</small>
+            </div>
+
+            <div class="form-group">
+                <span>Correo Electronico</span>
+                <input type="email" id="email" placeholder="Ingrese Correo Electronico" required>
+                <small> Por favor ingrese su Correo</small>
+            </div>
+
+            <div class="form-group">
+                <span>Telefono</span>
+                <input type="number" id="telefono" placeholder="Ingrese Telefono" required>
+                <small> Por favor ingrese su Telefono</small>
+            </div>
+
+            <div class="form-group">
+                <span>Direccion</span>
+                <input type="text" id="direccion" placeholder="Ingrese Direccion" required>
+                <small> Por favor ingrese su Direccion</small>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="REGISTRAR">
+            </div>
+        </form>
+    </div>
+
+    <script src="formulario.js"></script>
+</body>
+</html>

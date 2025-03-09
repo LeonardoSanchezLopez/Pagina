@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a5a5a;
+    margin-bottom: 30px;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Estilo para la información del cliente */
+h3 {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+#cliente-nombre {
+    font-weight: bold;
+}
+
+#cliente-email {
+    color: #007bff;
+}
+
+/* Detalles del pedido */
+#detalle-pedido {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+#detalle-pedido li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+#detalle-pedido li span {
+    color: #333;
+}
+
+/* Total */
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f44336;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Estilos adicionales */
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    border: none;
+}
+
+/* Aseguramos que el contenedor con la clase "efecto" ocupe todo el ancho de la pantalla */
+.efecto {
+    display: flex;
+    width: 100%; /* Cambié el 600px por 100% para que ocupe toda la pantalla */
+    height: 630px; /* Esto hace que la altura sea el 100% de la ventana */
+}
+
+/* Ajustamos las imágenes dentro de la clase "efecto" */
+.efecto img {
+    width: 0px; /* Las imágenes ocuparán todo el espacio disponible */
+    flex-grow: 1;
+    height: 100%; /* Asegura que las imágenes también ocupen todo el alto del contenedor */
+    opacity: .6;
+    transition: .5s ease;
+}
+
+/* Efecto hover dentro de la clase "efecto" */
+.efecto img:hover {
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
