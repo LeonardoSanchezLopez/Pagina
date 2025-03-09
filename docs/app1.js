@@ -69,6 +69,7 @@ const platillos = () =>{
 
 const mostrarPlatillos = (criollos, mariscos, amazonicos, chifas, caldos, parrillas, bebidas, postres, todos) =>{
     btnCriollos.addEventListener('click', ()=>{
+        console.log('Mostrando platillos criollos');
         limpiarHtml(contenedorPlatillos);
         criollos.forEach(criollo=> contenedorPlatillos.appendChild(criollo));
     });
